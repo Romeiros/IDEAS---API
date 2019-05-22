@@ -17,6 +17,11 @@ Install dependencies in ideas-api-backend folder and in ideas-api-frontend folde
 
     npm install
     
+Create .env file in ideas-api-backend folder and define PORT and SECRET
+
+    PORT=4000
+    SECRET='ThisIsASecretKey'
+    
 If you dont have PostgreSQL v10, you can use Docker-compose in ideas-api-backend folder with
 
     docker-compose up  
