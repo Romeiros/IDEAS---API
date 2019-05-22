@@ -1,0 +1,6 @@
+Список образов Docker  sudo docker images
+Запущенные контейнеры sudo docker ps
+Подключение к запущенному контейнеру sudo docker exec -it ideas-api_PostgreSQL_1_2401379630f4 bash
+Заходим в PostgresSQL psql -U postgres
+Список юзеров с правами \du
+Добавление пользователю прав супера ALTER ROLE "Roman" SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
